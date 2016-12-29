@@ -41,7 +41,8 @@ function ShoppingListCheckOffService(toBuyFilter, boughtFilter){
 	{"_id":1, "itemName" :'Cookies', "quantity":10, "isBought" :false},
 	{"_id":2, "itemName" :'Milk', "quantity":2, "isBought" :false},
 	{"_id":3, "itemName" :'Chocolate', "quantity":3, "isBought" : false},
-	{"_id":4, "itemName" :'Candies', "quantity":1, "isBought" : true},
+	{"_id":4, "itemName" :'Candies', "quantity":1, "isBought" : false},
+	{"_id":4, "itemName" :'Coke ', "quantity":3, "isBought" : false},
 	];
 
 	service.getBoughtItems = function(){
